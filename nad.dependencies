@@ -2,17 +2,17 @@
   {
     "repository": "device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common",
-    "branch": "12.1"
+    "branch": "13"
   },
   {
     "remote": "github",
     "repository": "gmw-project/android_kernel_xiaomi_sm8250",
     "target_path": "kernel/xiaomi/sm8250",
-    "branch": "arrow-12.1"
+    "branch": "13"
   },
   {
     "repository": "vendor_xiaomi_apollo",
     "target_path": "vendor/xiaomi/apollo",
-    "branch": "12.1"
+    "branch": "13"
   }
 ]
