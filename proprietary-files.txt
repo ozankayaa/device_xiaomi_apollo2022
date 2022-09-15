@@ -72,7 +72,7 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Camera
+# Camera - from V12.5.2.0.RJDMIXM
 vendor/lib64/camera/com.qti.actuator.apollo_dw9800.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_ov13b10_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_s5k3t2_gt24p64.so
@@ -195,7 +195,7 @@ vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|f0ee934ce0ceedaf3c429be7c644311e8343a6a8|040754908683f59ee1b5b7f962f659fbed3a515a
 
-# Camera-arcsoft
+# Camera-arcsoft - from V12.5.2.0.RJDMIXM
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
 vendor/lib64/libarcsoft_distortion_correction.so
@@ -212,7 +212,7 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_superportrait.so
 
-# Camera (camerax)
+# Camera (camerax) - from V12.5.2.0.RJDMIXM
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxfacialfeatures.so
 vendor/lib/libcamxfdalgo.so
@@ -234,7 +234,7 @@ vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
-# Camera components
+# Camera components - from V12.5.2.0.RJDMIXM
 vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
 vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so
 vendor/lib64/camera/components/com.arcsoft.node.superportrait.so
@@ -297,7 +297,7 @@ vendor/lib64/camera/components/com.xiaomi.node.tracker.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
-# Camera configs
+# Camera configs - from V12.5.2.0.RJDMIXM
 vendor/camera/model/model_front.dlc
 vendor/etc/camera/xiaomi/dualbokehsnapshot.json
 vendor/etc/camera/xiaomi/frontbokehsnapshot.json
@@ -367,12 +367,12 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
 
-# Camera firmware
+# Camera firmware - from V12.5.2.0.RJDMIXM
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/apollo_ois.coeff
 vendor/firmware/apollo_ois.prog
 
-# Camera sensors
+# Camera sensors - from V12.5.2.0.RJDMIXM
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 
