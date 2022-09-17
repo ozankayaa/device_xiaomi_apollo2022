@@ -8,7 +8,7 @@
     "remote": "github",
     "repository": "gmw-project/android_kernel_xiaomi_sm8250",
     "target_path": "kernel/xiaomi/sm8250",
-    "branch": "13"
+    "branch": "13-staging"
   },
   {
     "repository": "vendor_xiaomi_apollo",
