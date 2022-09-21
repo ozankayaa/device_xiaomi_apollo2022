@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common NusantaraProject-ROM stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common Spark-OS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
@@ -22,9 +22,25 @@ USE_GAPPS ?= true
 USE_AOSP_CLOCK := true
 USE_PIXEL_CHARGING := true
 
-NAD_BUILD_TYPE ?= UNOFFICIAL
+WITH_GAPPS := true
 
-PRODUCT_NAME := nad_apollo
+# Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
+# on supported devices with Deep Press input classifier HALs and models
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.input.video_enabled=false
+
+# Disable blur on app-launch
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.launcher.blur.appLaunch=false
+
+# Fling Sysprops
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.min.fling_velocity=50 \
+    ro.max.fling_velocity=16000
+
+
+
+PRODUCT_NAME := spark_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
